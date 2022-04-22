@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    color: rgb(18, 17, 17);
+    background-color: rgb(47, 240, 140);
+
+}
+
+nav {
+    background-color: steelblue;
+    padding: 10px;
+}
+
+a{
+    color: white;
+    margin: 40px;
+
+}
+
+h1 {
+    color: steelblue;
+}
+
+img {
+    width: 800px ;
+    border : 4px solid steelblue
+}
+
+p {
+    padding: 10px;
+   
+}
+footer {
+    background-color: steelblue;
+    color: white;
+}
