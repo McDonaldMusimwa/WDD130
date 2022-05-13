@@ -16,7 +16,7 @@ Fonts are separated by a | */
   --paragraph-font: Bitter, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: ##0a9396;  /* headlines on a white background */ 
+  --headline-color-on-white: #dfe7e7;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #0a9396; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
@@ -37,6 +37,7 @@ body {
   font-size: 18px;
   text-align: center;
   color: #BB3E03;
+  background-color: #c2dedd4a;
 }
 
 main p {
@@ -45,8 +46,11 @@ main p {
   text-align: center;
 }
 
-.logo-box img {
-  size: 80px;
+.logo{
+  max-width: 80px;
+  max-height: 80px;
+  clip-path: circle();
+  cursor: pointer;
 }
 
 
@@ -80,8 +84,9 @@ header > h1, header > h2 {
 }
 p {
   font-family: var(--paragraph-font);
-  color: var(--paragraph-color);
+  color: #000d0e;
   padding: 1em;
+
 }
 .colors {
   width: 100%;
@@ -117,6 +122,7 @@ nav {
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
+
 }
 nav  {
   list-style-type: none;
@@ -126,7 +132,7 @@ nav a {
   padding:1em;
   min-width: 120px;
   text-decoration: none;
-  padding: 10px;
+  padding: 27px;
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
@@ -135,6 +141,13 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
+nav li {
+  display:inline-block;
+}
+
+
+
+
 .sitemap {
   display: grid;
   justify-content: center;
@@ -191,4 +204,8 @@ footer {
 }
 .social-icon :hover {
   color: #090909;
+}
+
+#content {
+  max-width: 1600px;
 }
