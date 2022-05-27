@@ -151,36 +151,32 @@
 /* Activity 5 styles */ 
 .content5 {
   /* This is the parent of the activity 5 boxes. */
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 0.5fr 1fr 1fr;
-  height: 400px;
+ 
 }
 .red5 { 
-  width: 823px; 
+  width: 800px; 
   height: 100px; 
   background-color: red; 
   grid-column: 1/4;
   grid-row: 1/2;
 } 
 .green5 { 
+  float:left;
   width: 275px; 
   height: 200px; 
   background-color: green; 
-  grid-column: 1/2;
+  
 
 
 } 
 .yellow5 {
-  width: 550px; 
-  height: 300px; 
+  width: 800px; 
+  height: auto; 
   background-color: gold; 
-  grid-column:2/4;
-  grid-row: 2/3;
-
+  
 } 
 .blue5 {
-  width: 100%; 
+  width: 800px; 
   height: 100px; 
   background-color: blue; 
   grid-column: 1/4;
