@@ -2,14 +2,13 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,100&family=Square+Peg&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,100&family=Roboto&family=Square+Peg&display=swap');
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Open+Sans&display=swap');
   /* change the values below to your colors from your palette */
-  --primary-color: #0a9396   ;
-  --secondary-color: #94d2bd ;
-  --accent1-color: #EE9B00;
-  --accent2-color: #BB3E03;
+  --primary-color: #057174   ;
+  --secondary-color: #19ce93 ;
+  --accent1-color: #b39c72;
+  --accent2-color: #784830;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Square Peg", "monospace","Roboto";
