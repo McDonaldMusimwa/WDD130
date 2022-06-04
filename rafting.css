@@ -4,6 +4,8 @@ Any spaces in your font name should be replaced with a +.
 Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Open+Sans&display=swap');
+
+:root {
   /* change the values below to your colors from your palette */
   --primary-color: #057174   ;
   --secondary-color: #19ce93 ;
@@ -224,11 +226,20 @@ header > h1, header > h2 {
   grid-row: 3/8;
   width: 800px;
 }
+
 .msg {
-  grid-column: 6/10 ; 
-  grid-row: 3/5;
-  
+  width: 50%;
+  min-height: 400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #090909;
+  padding: 30px;
+  border-radius: 8px;
+  color: white; 
 }
+
               
 
 .para {
