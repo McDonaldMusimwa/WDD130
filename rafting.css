@@ -228,18 +228,10 @@ header > h1, header > h2 {
 }
 
 .msg {
-  width: 90%;
-  min-height: 400px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #090909;
-  padding: 30px;
-  border-radius: 8px;
-  color: white; 
+  grid-column: 6/10 ; 
+  grid-row: 3/5;
+  
 }
-
               
 
 .para {
@@ -256,6 +248,7 @@ header > h1, header > h2 {
   grid-row:3/4 ;
   grid-column: 9/11;
 }
+
 
 
 
