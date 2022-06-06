@@ -187,10 +187,10 @@ header > h1, header > h2 {
   color: #090909;
 }
  
-.home_grid {
+.home_grid1 {
   display: grid;
-  grid-template-columns: 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 0.2fr 0.5fr 0.2fr 0.2fr 0.1fr 0.1fr 0.5fr  ;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: 0.1fr 0.4fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
 
 
 
@@ -201,50 +201,91 @@ header > h1, header > h2 {
 }
 
 .rivers-card {
-  grid-column: 2/ 4 ; 
-  grid-row: 2 / 3;
+  grid-column: 2/4;
+  grid-row: 2/3;
+
  
 }
 .camping-card {
-  grid-column: 5/7 ; 
+  grid-column: 5/7;
   grid-row: 2/3;
+  
 
 }
 .rapids-card {
-  grid-column: 9/13 ; 
+  grid-column: 8/10;
   grid-row: 2/3;
-  height: 300px;
   
 }
 #background {
   grid-column: 1/11;
   grid-row: 4/9;
 }
-.mountains {
-  grid-column: 2/7 ; 
-  grid-row: 3/8;
-  width: 800px;
-}
+
 .msg {
-  grid-column: 6/10 ; 
-  grid-row: 3/5;
+  width: 90%;
   
+  min-height: 400px;
+  background-color:white;
+  grid-column: 1/12 ; 
+  grid-row: 3/7;
+  margin: 0 auto;
+  display: flex;
+  
+  
+  
+}
+.left {
+  grid-column: 2/7;
+  grid-row: 3/5;
+  width: 50%;
+  height: 600px;
+  background: no-repeat center / cover;
+  border-radius: 8px;
+
 }
               
 
-.para {
-  z-index: -1;
-  grid-column: 6/13 ;
-  grid-row: 4/5;
-  height: 100px;
-  margin: 5px 5px 100px 1px;
-  color: #EE9B00;
-  align-items: flex-start;
+.right {
+  z-index: 1;
+  grid-column: 6/10;
+  grid-row: 4/6;
+  background-color: #238463;
+  width: 50%;
+  max-height: 400px;
+  
+  align-items: center;
+  justify-content:center ;
+  padding: 30px;
+  border-radius: 8px;
+
+  margin: 1px 5px 5px 5px;
+  margin-left: -20px;
+  
+}
+
+#largefont{
+  font-size: 40px;
+  font-weight: lighter;
+}
+#paragraph {
+  margin: 5px 0;
+  font: 5px;
+  font-weight: 500;
+  line-height: 25px;
 }
 
 .join {
   grid-row:3/4 ;
   grid-column: 9/11;
+  border-radius: 8px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
+  padding:20px 30px;
+  display: inline-block;
+  letter-spacing: 2px;
 }
 
 
