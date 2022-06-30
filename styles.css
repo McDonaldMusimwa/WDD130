@@ -12,7 +12,7 @@ nav {
     padding:5px ;
     font-size: 1.2em;
     font-family: sans-serif;
-    background-color: #EE9B00;
+    background-color: #0cedf5;
     display: flex;
     align-items: baseline;
     justify-content: space-around;
@@ -24,11 +24,12 @@ ul {
 }  
 
 body{
-    background-color: #0a9396;
+    background-color: #a9eff4dc;
+    
 }
 
 .navhover {
-    border: 10px solid #d9c2a3;
+    border: 10px solid #202e2fdc;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
     
