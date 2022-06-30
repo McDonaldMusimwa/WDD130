@@ -44,6 +44,7 @@ body {
     cursor: pointer;
     display: flex;
     z-index: -1;
+    border-radius: 8px;
 
 }
 #logo_link {
@@ -173,13 +174,14 @@ h3{
 .card-img{
     width: 100%;
     height: 50%;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px var(--primary-color);
     transition: transform .5s;
+    border-radius: 5px;
 }
 .card-img:hover {
     opacity: .6;
     transform: scale(1.1);
-  }
+}
 
 .home_grid1{
     display: grid;
@@ -207,22 +209,26 @@ h3{
 .mainpic{
     width: 90%;
     height: 50%;
+    border-radius: 4px;
 }
 .join {
     border-radius: 60px;
     text-decoration: none;
     text-transform: uppercase;
-    background-color:var(--primary-color);
-    color:var(--accent1-color);
+    background-color:var(--accent1-color);
+    color:var(--primary-color);
     padding: 20px 30px;
     letter-spacing: 2px;
+    box-shadow: 5px 5px 10px var(--primary-color);
+    transition: transform .5s;
 }
 .join :hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
     opacity: .5;
     transform: scale(1.1);
-    transition: transform .5s;
+    z-index: 2;
+
 }
 p{
     color: var(--accent1-color);
@@ -245,6 +251,7 @@ p{
 .mainpic2{
     width: 90%;
     height: 90%;
+    border-radius: 8px;
 }
 .left2{
     grid-column: 1/2;
@@ -262,6 +269,9 @@ p{
     padding: 5px;
     margin: 1px 5px 10px 35px;
     border: 5px;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    
 }
 
 .middlesection{
@@ -274,7 +284,7 @@ p{
     grid-row: 2/3;
     padding: 5px;
     margin: 1px 5px 10px 35px;
-
+    
 }
 .bottomsection{
     grid-column: 1/2;
@@ -286,6 +296,8 @@ p{
     grid-row: 3/4;
     padding: 5px;
     margin: 1px 5px 10px 35px;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
 }
 
 .page2heads{
