@@ -1,0 +1,82 @@
+body{
+    background-color: #5e5e98;
+    width: 26%;
+    height:108vh;
+    color: #ffffff;
+    margin: 20px;
+    border: solid 4px #0a0a23;
+    border-radius: 8px;
+    
+}
+
+label{
+    display: block;
+    margin: 0.5rem 0;
+    color: #ffffff;
+    
+    
+
+}
+form{
+    padding: 0 0.5em 2rem 0.5em;
+    background-color: #5e5e98;
+    border-radius: 8px;
+    max-width:500px;
+    min-width:300px;
+    width:60vw
+    
+    
+    
+}
+
+fieldset{
+    padding:2rem 0 ;
+    border:none;
+}
+fieldset:not(:last-of-type) {
+    border-bottom:3px solid #3b3b4f;
+  
+}
+
+h1,p {
+    margin: 1em auto;
+    text-align: center;
+}
+input,select,textarea{
+    width: 100%;
+    margin: 10px 0 0 0 ;
+    min-height:2em;
+    color: #ffffff;
+}
+.inline{
+    width: unset;
+    margin: 0 0.5em 0 0 ;
+    vertical-align:middle;
+}
+input,textarea{
+    background-color:#0a0a23;
+    border:1px solid #0a0a23;
+    color:#ffffff;
+   
+}
+input[type="submit"]{
+    display:block;
+    width:60%;
+    margin:1em auto 1em auto;
+    height:2em;
+    font-size:1.1rem;
+    background-color: #37374a;
+    border-color: white;
+    min-width: 300px;
+}
+
+input[type="file"] {
+    padding:1px 2px;
+}
+
+a{
+    color: #0a0a23;
+}
+textarea[name="bio"] {
+    color: #ffffff;
+}
